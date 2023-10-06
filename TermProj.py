@@ -34,10 +34,10 @@ pd.options.display.float_format = "{:,.3f}".format
 np.random.seed(5525)
 `
 # Load each dataset
-url_athelete = 'https://raw.githubusercontent.com/mahimasingh-VTU/DataAnalytics-1/main/Dataset/olympic_athletes.csv'
-url_hosts = 'https://raw.githubusercontent.com/mahimasingh-VTU/DataAnalytics-1/main/Dataset/olympic_hosts.csv'
-url_medals = 'https://raw.githubusercontent.com/mahimasingh-VTU/DataAnalytics-1/main/Dataset/olympic_medals.csv'
-url_results = 'https://raw.githubusercontent.com/mahimasingh-VTU/DataAnalytics-1/main/Dataset/olympic_results.csv'
+url_athelete = 'https://raw.githubusercontent.com/mahimasingh-VTU/OlympicRankPredictor/main/Dataset/olympic_athletes.csv'
+url_hosts = 'https://raw.githubusercontent.com/mahimasingh-VTU/OlympicRankPredictor/main/Dataset/olympic_hosts.csv'
+url_medals = 'https://raw.githubusercontent.com/mahimasingh-VTU/OlympicRankPredictor/main/Dataset/olympic_medals.csv'
+url_results = 'https://raw.githubusercontent.com/mahimasingh-VTU/OlympicRankPredictor/main/Dataset/olympic_results.csv'
 
 athletes_df = pd.read_csv(url_athelete)
 hosts_df = pd.read_csv(url_hosts)
